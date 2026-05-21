@@ -803,8 +803,8 @@
     <div class="container-xxl py-6">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase mb-2">Testimonial</h6>
-                <h1 class="display-6 mb-4">What Our Clients Say!</h1>
+                <h6 class="text-primary text-uppercase mb-2">Alumnis</h6>
+                <h1 class="display-6 mb-4">What Our Proud Alumi Say!</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
@@ -818,7 +818,7 @@
                             </div>
                             <p class="fs-4">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
                             <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
+                            <h5>Name</h5>
                             <span>Profession</span>
                         </div>
                         <div class="testimonial-item text-center">
@@ -830,7 +830,7 @@
                             </div>
                             <p class="fs-4">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
                             <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
+                            <h5>Name</h5>
                             <span>Profession</span>
                         </div>
                         <div class="testimonial-item text-center">
@@ -842,7 +842,7 @@
                             </div>
                             <p class="fs-4">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
                             <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
+                            <h5>Name</h5>
                             <span>Profession</span>
                         </div>
                     </div>
@@ -854,51 +854,143 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-6 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Get In Touch</h4>
-                    <h2 class="text-primary mb-4"><i class="fa fa-car text-white me-2"></i>Drivin</h2>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Popular Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" class="form-control p-3 border-0" placeholder="Your Email Address">
-                            <button class="btn btn-primary">Sign Up</button>
-                        </div>
-                    </form>
-                    <h6 class="text-white mt-4 mb-3">Follow Us</h6>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+   <div class="container-fluid text-light footer my-6 mb-0 py-6 wow fadeIn"
+    data-wow-delay="0.1s"
+    style="background: linear-gradient(135deg, #0f5132, #198754);">
+
+    <div class="container">
+        <div class="row g-5">
+
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-4">Get In Touch</h4>
+
+                <h2 class="mb-4" style="color: #90EE90;">
+                    <i class="fa fa-car text-white me-2"></i>Drivin
+                </h2>
+
+                <p class="mb-2">
+                    <i class="fa fa-map-marker-alt me-3"></i>
+                    123 Street, New York, USA
+                </p>
+
+                <p class="mb-2">
+                    <i class="fa fa-phone-alt me-3"></i>
+                    +012 345 67890
+                </p>
+
+                <p class="mb-2">
+                    <i class="fa fa-envelope me-3"></i>
+                    info@example.com
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Quick Links</h4>
+
+                <a href="" class="btn btn-link"
+                    style="color:#d8f3dc; text-decoration:none;"
+                    onmouseover="this.style.color='#90EE90'"
+                    onmouseout="this.style.color='#d8f3dc'">
+                    About Us
+                </a>
+
+                <a href="" class="btn btn-link"
+                    style="color:#d8f3dc;"
+                    onmouseover="this.style.color='#90EE90'"
+                    onmouseout="this.style.color='#d8f3dc'">
+                    Contact Us
+                </a>
+
+                <a href="" class="btn btn-link"
+                    style="color:#d8f3dc;"
+                    onmouseover="this.style.color='#90EE90'"
+                    onmouseout="this.style.color='#d8f3dc'">
+                    Our Services
+                </a>
+
+                <a href="" class="btn btn-link"
+                    style="color:#d8f3dc;"
+                    onmouseover="this.style.color='#90EE90'"
+                    onmouseout="this.style.color='#d8f3dc'">
+                    Terms & Condition
+                </a>
+
+                <a href="" class="btn btn-link"
+                    style="color:#d8f3dc;"
+                    onmouseover="this.style.color='#90EE90'"
+                    onmouseout="this.style.color='#d8f3dc'">
+                    Support
+                </a>
+            </div>
+
+            <!-- Popular Links -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Popular Links</h4>
+
+                <a class="btn btn-link" href="" style="color:#d8f3dc;">About Us</a>
+                <a class="btn btn-link" href="" style="color:#d8f3dc;">Contact Us</a>
+                <a class="btn btn-link" href="" style="color:#d8f3dc;">Our Services</a>
+                <a class="btn btn-link" href="" style="color:#d8f3dc;">Terms & Condition</a>
+                <a class="btn btn-link" href="" style="color:#d8f3dc;">Support</a>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Newsletter</h4>
+
+                <form action="">
+                    <div class="input-group">
+                        <input type="text"
+                            class="form-control p-3 border-0"
+                            placeholder="Your Email Address">
+
+                        <button class="btn"
+                            style="background:#90EE90; color:#0f5132; font-weight:bold;">
+                            Sign Up
+                        </button>
                     </div>
+                </form>
+
+                <h6 class="text-white mt-4 mb-3">Follow Us</h6>
+
+                <div class="d-flex pt-2">
+
+                    <a class="btn btn-square me-1" href=""
+                        style="border:1px solid rgba(255,255,255,0.5); color:white;"
+                        onmouseover="this.style.background='#90EE90'; this.style.color='#0f5132'"
+                        onmouseout="this.style.background='transparent'; this.style.color='white'">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a class="btn btn-square me-1" href=""
+                        style="border:1px solid rgba(255,255,255,0.5); color:white;"
+                        onmouseover="this.style.background='#90EE90'; this.style.color='#0f5132'"
+                        onmouseout="this.style.background='transparent'; this.style.color='white'">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a class="btn btn-square me-1" href=""
+                        style="border:1px solid rgba(255,255,255,0.5); color:white;"
+                        onmouseover="this.style.background='#90EE90'; this.style.color='#0f5132'"
+                        onmouseout="this.style.background='transparent'; this.style.color='white'">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a class="btn btn-square me-0" href=""
+                        style="border:1px solid rgba(255,255,255,0.5); color:white;"
+                        onmouseover="this.style.background='#90EE90'; this.style.color='#0f5132'"
+                        onmouseout="this.style.background='transparent'; this.style.color='white'">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
                 </div>
             </div>
+
         </div>
     </div>
+</div>
     <!-- Footer End -->
 
 
@@ -907,12 +999,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    &copy; <a href="#">Department of CSE</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-                    <br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    Designed & Developed By <a href="https://htmlcodex.com">Department of CSE,KYAU</a>
+                   
                 </div>
             </div>
         </div>
